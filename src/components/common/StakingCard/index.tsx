@@ -10,7 +10,7 @@ interface StakingCardProps {
 const StakingCard: React.FC<StakingCardProps> = ({items}) => {
     const [hovered, setHovered] = useState<boolean>(false);
     return (
-        <div className="relative w-full h-[438px] mt-4">
+        <div className="relative w-full h-[450px] 2xl:h-[438px] xl:h-[438px] lg:h-[438px] md:h-[450px] sm:h-[450px] mt-4">
             <div
                 className={`-inset-2 transition-all duration-300 ease-in-out ${
                 hovered ? "absolute" : "hidden"

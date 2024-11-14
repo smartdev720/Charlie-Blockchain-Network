@@ -15,11 +15,11 @@ const NFTCard = () => {
         <div className="w-full h-full transition-all duration-300 ease-in-out opacity-30 nft-card-shadow blur-sm bg-gradient-br"></div>
       </div>
       <div
-        className="nft-card-wrapper w-full h-full bg-gradient-br"
+        className="nft-card-wrapper relative w-full bg-gradient-br"
         onMouseOver={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
       >
-        <div className="nft-card-container relative bg-[#1C1C1C] opacity-90 flex flex-col">
+        <div className="nft-card-wrapper inset-[1px] relative bg-[#1C1C1C] opacity-90 flex flex-col">
           {/* Desktop */}
           <div className="hidden 2xl:block xl:block lg:block md:block sm:hidden">
             <div className="relative">
